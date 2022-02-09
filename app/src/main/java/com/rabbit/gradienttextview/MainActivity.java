@@ -14,5 +14,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+
+        // 设置背景渐变色
+        binding.tvText.setBackgroundResource(R.drawable.bg_gradient);
     }
 }
