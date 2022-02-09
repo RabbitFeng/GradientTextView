@@ -1,2 +1,3 @@
 rootProject.name = "Gradient TextView"
 include ':app'
+include ':customview'
