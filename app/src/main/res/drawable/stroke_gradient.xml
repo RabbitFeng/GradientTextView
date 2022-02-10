@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 绘制渐变色 -->
+    <item>
+        <shape>
+            <gradient
+                android:endColor="@color/color_end_1"
+                android:startColor="@color/color_start_1" />
+        </shape>
+    </item>
+
+    <!-- 纯色填充覆盖中间部分，四周留出空间展示渐变色边框 -->
+    <item
+        android:bottom="5dp"
+        android:left="5dp"
+        android:right="5dp"
+        android:top="5dp">
+        <shape>
+            <solid android:color="@color/white" />
+        </shape>
+    </item>
+</layer-list>
